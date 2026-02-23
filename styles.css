@@ -1,0 +1,47 @@
+/* Responsive CSS Styles for Corporate Website */
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .header {
+        padding: 20px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        font-size: 16px;
+    }
+    .header {
+        padding: 30px;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 901px) {
+    body {
+        font-size: 18px;
+    }
+    .header {
+        padding: 40px;
+    }
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
